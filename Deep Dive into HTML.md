@@ -174,6 +174,13 @@ this is worth when we want to display some random text
 inserting multiple paragraph 
 
 p * 4 
+<div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+</div>
+
 
 💡Tip 3 
 
@@ -183,12 +190,6 @@ next line without using mouse
 
 
 
-<div>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-</div>
 
 ```html
 <p></p>
