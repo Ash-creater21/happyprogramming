@@ -8,23 +8,25 @@ Emmet is a set of plug-ins for text editors that allow for high-speed coding and
 
 Meta tag this tag is used for seo that is search engine optimization that helps the google or Bings to know our websites 
 
+## Selecting character set using meta tag
+
 here in this meta tag is telling the browser that we will use utf-8 
 
 ```html
 <meta charset="UTF-8">
 ```
 
-
-
 <meta charset="UTF-8">
 
 <meta charset="UTF-8">
 
-<meta charset="UTF-8">      
+<meta charset="UTF-8">
 
 <meta charset="UTF-8">
 
 **The meta element represents various kinds of metadata that cannot be expressed using the title, base, link, style, and script elements.**
+
+## Making website width and scale using meta tag
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -58,7 +60,17 @@ shopping , grocery , smartphone etc
 
 Robots are used to tell a search engine that they want to be indexed or followed by the search engine 
 
+the example below shows the website would be followed and indexed by the search engine 
 
+```html
+ <meta name = "robots" content = "INDEX , FOLLOW ">
+```
+
+the example below shows the website would not be followed and indexed by the search engine
+
+```html
+ <meta name = "robots" content = "NOINDEX , NOFOLLOW ">
+```
 
 ### how to include extenal CSS to your file
 
@@ -67,8 +79,6 @@ Robots are used to tell a search engine that they want to be indexed or followed
 <link rel="stylesheet" href="harry.css">
 ```
 
-
-
 ### how to include extenal JavaScript to your file
 
 ```html
@@ -76,17 +86,17 @@ Robots are used to tell a search engine that they want to be indexed or followed
  <script> src = "Harrry.js"</script>
 ```
 
-# tags in HTML
+# Tags in HTML
 
-Heading tag : it is used for writing heading in html 
+## Heading tag
 
-opening tag closing tag 
+it is used for writing heading in html 
+
+opening tag `<h1>` closing tag `</h1>`
 
 ```html
 <h1></h1>
 ```
-
-
 
 headings are 1 to 6 and should be used only once in the program 
 
@@ -101,7 +111,7 @@ headings are 1 to 6 and should be used only once in the program
     <meta name = "keyword" content = "html , html tutorials , web dev "> 
     <meta name = "robots" content = "INDEX , FOLLOW ">
     <title>My First Website </title>
-  
+
 </head>
 <body>
   <h1>This is html </h1>
@@ -126,8 +136,6 @@ Output
 
 ##### This is html
 
-
-
 ### Paragraph in html
 
 ```html
@@ -141,7 +149,7 @@ Output
     <meta name = "keyword" content = "html , html tutorials , web dev "> 
     <meta name = "robots" content = "INDEX , FOLLOW ">
     <title>My First Website </title>
-  
+
 </head>
 <body>
     <h1>this is  heading </h1>
@@ -155,9 +163,9 @@ Output
 
 <img src="file:///C:/Users/HP/AppData/Roaming/marktext/images/2022-01-27-16-33-55-image.png" title="" alt="" data-align="left">
 
-#### ðŸ’¡ Tip of the Day
+#### ?’¡ Tip of the Day
 
-ðŸ’¡Tip 1 
+?’¡Tip 1 
 
 if you type lorem<word>
 
@@ -169,11 +177,17 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit alias commodi saepe
 
 this is worth when we want to display some random text 
 
-ðŸ’¡Tip 2 
+?’¡Tip 2 
 
 inserting multiple paragraph 
 
 p * 4 
+
+?’¡Tip 3 
+
+next line without using mouse 
+
+`ctrl + Enter`
 
 <div>
 <p></p>
@@ -181,16 +195,6 @@ p * 4
 <p></p>
 <p></p>
 </div>
-
-
-ðŸ’¡Tip 3 
-
-next line without using mouse 
-
-`ctrl + Enter`
-
-
-
 
 ```html
 <p></p>
@@ -200,8 +204,6 @@ next line without using mouse
 ```
 
 for hovering into one paragraph to another use tab 
-
-
 
 #### Strong tag in html
 
@@ -219,8 +221,6 @@ for hovering into one paragraph to another use tab
 Output
 
 ![](C:\Users\HP\AppData\Roaming\marktext\images\2022-01-27-16-54-50-image.png)
-
-
 
 * you can use `<b>` instead of `<strong>` but it is not recommended as they are defined in HTML3 and Current version is HTML5 
 
@@ -256,7 +256,7 @@ suppose you want a new line you won't be able to do it without this tag , B'coz 
 <html lang="en">
 <head>
     <title>My First Website </title>
-  
+
 </head>
 <body>
   <h1>I am heading </h1>
@@ -278,7 +278,3 @@ it is written like that
 `<hr>`
 
 ---
-
-
-
-
